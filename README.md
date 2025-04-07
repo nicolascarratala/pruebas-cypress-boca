@@ -30,23 +30,29 @@ Bienvenido a mi portafolio de pruebas automatizadas con Cypress. Este repositori
 
 📂 Estructura del Proyecto
 
-📁 cypress/
- ├── 📁 e2e/
- │   ├── login.cy.js
- │   ├── partido.cy.js
- │   ├── tickets.cy.js
- ├── 📁 videos/    # Grabaciones de pruebas en ejecución
- ├── 📁 fixtures/
- ├── 📁 support/
- ├── 📁 plugins/
-
-📁 src/
- ├── app.js
- ├── index.html
- ├── login.html
- ├── partido.html
- ├── tickets.html
- ├── style.css
+```
+├── cypress/
+│   ├── e2e/
+│   │   ├── login.cy.js
+│   │   ├── partido.cy.js
+│   │   └── tickets.cy.js
+│   ├── videos/         # Grabaciones de pruebas en ejecución
+│   ├── fixtures/
+│   ├── support/
+│   └── plugins/
+├── src/
+│   ├── app.js
+│   ├── index.html
+│   ├── login.html
+│   ├── partido.html
+│   ├── tickets.html
+│   └── style.css
+├── cypress.config.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
 
 📜 cypress.config.js
 📜 .gitignore
